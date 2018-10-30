@@ -709,11 +709,11 @@ void func_sum(int num)
      sum=sum+i;
    }
    printf("\n the sum of first %d natural number is %d\n",num,sum);
-   t = clock() - t;
+   /* t = clock() - t;
     double time_taken = ((double)t)/CLOCKS_PER_SEC;
-    printf("fun() took %f seconds to execute \n", time_taken);
+    printf("fun() took %f seconds to execute \n", time_taken); */
 
-}
+} 
 void func_fac(int num){
     clock_t t;
     int i,fact=1;
@@ -722,9 +722,9 @@ void func_fac(int num){
      fact=fact*i;
    }
   printf("\n the factorial of %d  is %d\n",num,fact);
-  t = clock() - t;
+  /* t = clock() - t;
     double time_taken = ((double)t)/CLOCKS_PER_SEC;
-    printf("fun() took %f seconds to execute \n", time_taken);
+    printf("fun() took %f seconds to execute \n", time_taken);*/
 }
 
 int main()
